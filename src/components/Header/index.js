@@ -15,7 +15,7 @@ const Header = () => {
             </div>
         </div>
         <div className="title">
-             <div className="name">[INDIAN ASTRO SCIENCE] <span>Predictions By Anirudh Kumar Mishra</span></div>
+             <div className="name">[INDIAN ASTRO SCIENCE] <p>Predictions By Anirudh Kumar Mishra</p></div>
         </div>
         </>
     )
