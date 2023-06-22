@@ -389,7 +389,7 @@ export default function AstroTimeLine() {
                                     <TimelineDot color="primary"/>
                                     <TimelineConnector color="primary" style={timelineConnectorStyle} />
                                 </TimelineSeparator>
-                                <TimelineContent
+                                {/* <TimelineContent
                                     sx={{ m: 'auto 0' }}
                                     component={motion.div}
                                     whileInView={{ opacity: 1, x: 0 }}
@@ -397,7 +397,7 @@ export default function AstroTimeLine() {
                                     transition={{ duration: 1.5 }}
                                 >
                                     <PredictionContent prediction={prediction} />
-                                </TimelineContent>
+                                </TimelineContent> */}
                             </TimelineItem>
 
                         )
