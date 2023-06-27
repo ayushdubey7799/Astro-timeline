@@ -49,15 +49,17 @@
     
 
     .prediction{
-      border-radius: 3rem;
+      border-radius: 1.2rem;
+      margin-bottom: 2px !important;
+      padding: 0.8rem;
     }
 
     .date{
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
   
     .heading{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   
     .text{
@@ -70,15 +72,17 @@
    
 
     .prediction{
-      border-radius: 2rem;
+      border-radius: 0.8rem;
+      margin-bottom: 2px !important;
+      padding: 0.5rem;
     }
 
     .date{
-      font-size: 0.9rem;
+      font-size: 0.7rem;
     }
   
     .heading{
-      font-size: 1rem;
+      font-size: 0.7rem;
     }
   
     .text{
