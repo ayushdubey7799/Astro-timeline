@@ -1,6 +1,8 @@
 .container{
     height: 85vh;
     overflow-y: scroll;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .container::-webkit-scrollbar {
@@ -70,6 +72,10 @@
 
   @media only screen and (max-width: 500px) {
    
+
+    .container{
+      width: 100%;
+  }
 
     .prediction{
       border-radius: 0.8rem;
