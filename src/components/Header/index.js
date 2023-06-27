@@ -1,9 +1,10 @@
+import D from "./dummy";
 import "./style.css"
 
 const Header = () => {
     return (
-        <>
-        <div className="navbar">
+        <div className="container-head">
+         <div className="navbar">
             <div className="left">
                 <a className="link">Home</a>
                 <a className="link">News</a>
@@ -14,10 +15,9 @@ const Header = () => {
               <a className="link">About</a>
             </div>
         </div>
-        <div className="title">
-             <div className="name">[INDIAN ASTRO SCIENCE] <p>Predictions By Anirudh Kumar Mishra</p></div>
+        <D/>
+        <span className="sparkle"></span>
         </div>
-        </>
     )
 }
 

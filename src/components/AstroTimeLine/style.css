@@ -1,5 +1,4 @@
 .container{
-    margin-top: 20px;
     height: 80vh;
     overflow-y: scroll;
 }
@@ -27,10 +26,61 @@
   }
 
   .text{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   p{
     margin: 0;
     padding: 0;
+  }
+
+  .connect{
+    position: absolute !important;
+    top: calc(50% + 8px) !important; 
+    left: 48.7vw !important;
+    height: calc(100% - -100px) !important; 
+    z-index: -1 !important;
+  }
+
+  
+  @media only screen and (max-width: 1900px) {
+    .connect{
+      left: 49vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .connect{
+      left: 48.21vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .connect{
+      left: 48.6vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .connect{
+      left: 48vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 500px) {
+    .connect{
+      left: 46.5vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 400px) {
+    .connect{
+      left: 44.7vw !important;
+    }
+   
   }

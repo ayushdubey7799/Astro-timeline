@@ -2,8 +2,33 @@
 
 
 body{
-  background-color: rgb(251,189,142);
+  background-color: white;
   font-family: 'Inter', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+.side{
+  position: fixed;
+  box-sizing: border-box;
+  cursor: pointer;
+  left: 0;
+  background-color: yellow;
+  color: black;
+  width: 16%;
+  padding: 0.3rem 1.5rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  z-index: 1000;
+}
+
+.appoint{
+  top: 30%;
+}
+
+.help{
+  top: 37%;
+}
 
