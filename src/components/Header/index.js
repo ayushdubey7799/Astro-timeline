@@ -1,4 +1,3 @@
-import D from "./dummy";
 import "./style.css"
 
 const Header = () => {
@@ -9,29 +8,33 @@ const Header = () => {
 
 
     return (
+        
         <div className="container-head">
-         <div className="navbar">
-            <div className="left">
-                <a className="link">Home</a>
-                <a className="link">News</a>
-                <div className="link">
-                    
-                    <select>
-                        <option >--Services--</option>
-                        <option >Need Help</option>
-                        <option >About IASO</option>
-                        <option >Consultancy Services</option>
-                    </select>
-                </div>
-                <a className="link">Contact</a>
-            </div>
-            <div className="right">
-              <a className="link">Search</a>
-              <a className="link">About</a>
-            </div>
-        </div>
-        <D/>
-        <span className="sparkle"></span>
+            <div className="navbar">
+            <ul className="left">
+               <li><a className="link">Home</a></li>
+               <li><a className="link">News</a></li>
+      <li>
+        <a className="link">Services</a>
+        <ul className="dropdown-menu">
+          <li><a className="link">Need Help</a></li>
+          <li><a className="link">Book Appointment</a></li>
+          <li><a className="link">About IASO</a></li>
+        </ul>
+      </li>
+      <li><a className="link">Contact</a></li>
+    </ul>
+    <div className="right">
+      <a className="link">Search</a>
+      <a className="link">About</a>
+    </div>
+  </div>
+
+        <div className="foot">
+      <h2 className="logo">
+      <span className="name">[INDIAN ASTRO SCIENCE]<sup>Predictions By Anirudh Kumar Mishra</sup></span>
+      </h2>
+    </div>
         </div>
     )
 }
