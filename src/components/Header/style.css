@@ -96,17 +96,18 @@ sup{
   @media only screen and (max-width: 680px) {
     .name{
       font-size: 1.5rem;
+      padding: 0;
     }
 
     sup{
       font-size: 0.5rem !important;
   }
 
-     .foot{
+     .logo{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+     
     }
    
   }
