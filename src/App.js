@@ -6,15 +6,10 @@ import Header from './components/Header';
 
 function App() {
   
-  const scrollToBottom = () => {
-    document.body.scrollTop = document.body.scrollHeight; 
-  document.documentElement.scrollTop = document.body.scrollHeight;
-  };
+  
 
   return (
     <div className="App">
-       <div className="side appoint" onClick={scrollToBottom}>Consultancy Services</div>
-      <div className="side help" onClick={scrollToBottom}>Need Help ?</div>
       <Header />
       {/* <Waves/> */}
       <AstroTimeLine />

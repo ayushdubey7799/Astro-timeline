@@ -30,9 +30,8 @@
 
 .logo{
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
-    height: 20vh; 
 }
 
 .name{
@@ -46,21 +45,14 @@ sup{
 
 
 .foot {
-    background: url("../../assets/istockphoto-472809828-170667a.webp");
+    background: url("../../assets/b409ee94ef48f517884709bc4f12eb93.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
-    height: auto;
-    /* background: linear-gradient(
-      90deg,
-      rgb(1, 0, 24) 0%,
-      rgb(6, 27, 73) 50%,
-      rgb(144, 149, 199) 100%
-    );
-    background-size: 400% 400%;
-    animation: gradient 3s ease infinite; */
+    height: 30vh;
   }
   
 .name{
@@ -81,49 +73,51 @@ sup{
     }
   }
 
-  /* .sparkle {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 20%, rgba(255, 255, 255, 0) 70%);
-    top: -100px;
-    left: -100px;
-    animation: sparkle 7s ease infinite;
+  
+  select{
+    width: 80%;
   }
+
   
-  @keyframes sparkle {
-    0% {
-      transform: rotate(0deg) scale(1);
+
+  @media only screen and (max-width: 900px) {
+    .name{
+      font-size: 2rem;
+      padding: 1rem;
     }
-    100% {
-      transform: rotate(360deg) scale(1.5);
-    }
-  }
-   */
-  
-  
-  
-  
-  
-  
-  
-  @media only screen and (max-width: 800px) {
-    .foot {
-      margin: 1.5rem 0.5rem;
-      bottom: 0;
-      /* margin-bottom: 6rem; */
-    }
-  
     
-  
-    .foot h2 {
-      font-size: 1rem;
+    sup{
+      font-size: 0.7rem !important;
+  }
+   
+   
+  }
+
+  @media only screen and (max-width: 680px) {
+    .name{
+      font-size: 1.5rem;
     }
-  
-    .social-links {
-      gap: 0.5rem;
+
+    sup{
+      font-size: 0.5rem !important;
+  }
+
+     .foot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-    .social-link {
-      font-size: 1rem !important;
+   
+  }
+
+  @media only screen and (max-width: 500px) {
+    .name{
+      font-size: 1.2rem;
     }
+
+    sup{
+      font-size: 0.5rem !important;
+  }
+   
   }

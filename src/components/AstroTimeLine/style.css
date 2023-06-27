@@ -1,5 +1,5 @@
 .container{
-    height: 80vh;
+    height: 85vh;
     overflow-y: scroll;
 }
 
@@ -37,50 +37,52 @@
   .connect{
     position: absolute !important;
     top: calc(50% + 8px) !important; 
-    left: 48.7vw !important;
+     left: 49.955% !important;
     height: calc(100% - -100px) !important; 
     z-index: -1 !important;
   }
 
   
-  @media only screen and (max-width: 1900px) {
-    .connect{
-      left: 49vw !important;
-    }
-   
-  }
+  
 
-  @media only screen and (max-width: 1400px) {
-    .connect{
-      left: 48.21vw !important;
-    }
-   
-  }
+  @media only screen and (max-width: 1000px) {
+    
 
-  @media only screen and (max-width: 1200px) {
-    .connect{
-      left: 48.6vw !important;
+    .prediction{
+      border-radius: 3rem;
     }
-   
-  }
 
-  @media only screen and (max-width: 1200px) {
-    .connect{
-      left: 48vw !important;
+    .date{
+      font-size: 1rem;
+    }
+  
+    .heading{
+      font-size: 1.2rem;
+    }
+  
+    .text{
+      font-size: 0.7rem;
     }
    
   }
 
   @media only screen and (max-width: 500px) {
-    .connect{
-      left: 46.5vw !important;
-    }
    
-  }
 
-  @media only screen and (max-width: 400px) {
-    .connect{
-      left: 44.7vw !important;
+    .prediction{
+      border-radius: 2rem;
+    }
+
+    .date{
+      font-size: 0.9rem;
+    }
+  
+    .heading{
+      font-size: 1rem;
+    }
+  
+    .text{
+      font-size: 0.5rem;
     }
    
   }
