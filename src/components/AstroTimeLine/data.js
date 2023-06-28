@@ -119,7 +119,9 @@ export const getData = () => {
             {
                 "date": "Nov-2017",
                 "title": "Ram Temple Decision",
-                "description": "Ram Temple Decision	2 years and 3 months are left in construction of ram Mandir."
+                "description": "Ram Temple Decision	2 years and 3 months are left in construction of ram Mandir.",
+                "predicted_date": "Feb-2019"
+
             },
             {
                 "date": "Aug-2022",
@@ -179,6 +181,8 @@ export const getData = () => {
                 "date": "May-2022",
                 "title": "Putin's Sudden Visit to India",
                 "description": "Russian President Valdir Putin will make a sudden visit to India before May 2022. This will seem to be a formal visit but a historic and unprecedented decision will be taken during his meet with PM Modi",
+                "predicted_date": "2022"
+
                 
             },
             {
@@ -233,13 +237,15 @@ export const getData = () => {
                 "date": "Jul-2022",
                 "title": "Narendra Modi",
                 "description": "Our Prime Minister will remain healthy and continue to serve at this post for a long time (at least 10 years).",
-                
+                "predicted_date": "2032"
+
             },
             {
                 "date": "Aug-2022",
                 "title": "Pakistan PM",
                 "description": "Imran Khan will be the next Prime Minister of Pakistan after elections.",
-                
+                "predicted_date": "2023"
+
             },
             {
                 "date": "Aug-2022",

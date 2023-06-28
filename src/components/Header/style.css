@@ -30,12 +30,15 @@ li{
   list-style-type: none;
 }
 
-#services{
-  position: absolute;
+.drawer{
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 3rem;
 }
 
-#services:hover > li{
-display: block;
+.menu{
+  display: none !important;
+  justify-self: end ;
 }
 
 .logo{
@@ -71,17 +74,7 @@ sup{
   
   
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+  
 
   
   select{
@@ -91,7 +84,13 @@ sup{
   
 
   @media only screen and (max-width: 900px) {
+    .container-head{
+      display: none;
+    }
 
+     .menu{
+      display: flex !important;
+     }
 
     .name{
       font-size: 2rem;
@@ -128,6 +127,8 @@ sup{
   }
 
   @media only screen and (max-width: 500px) {
+   
+
     .foot{
       height: 20vh;
     }
@@ -139,6 +140,7 @@ sup{
     sup{
       font-size: 0.5rem !important;
   }
+
    
   }
 
@@ -157,11 +159,7 @@ sup{
    
   }
 
-  /* .container-head {
-    background-color: #333;
-    color: #fff;
-  }
-   */
+
   .navbar {
     display: flex;
     align-items: center;

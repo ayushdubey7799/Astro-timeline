@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(3,10,26);
+    color: white;
     gap: 1rem;
     padding: 1rem;
 }
@@ -14,7 +14,7 @@
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -34,6 +34,18 @@ a:hover{
     gap: 5rem;
 }
 
+.share{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.1rem;
+  width: 50%;
+  margin: 10px 15px;
+  background-color: rgb(3,10,26);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
 form{
     display: flex;
     gap: 0.5rem;
@@ -41,7 +53,7 @@ form{
 
 input{
     width: 70%;
-    height: 3rem;
+    height: 2.7rem;
     border-radius: 0.5rem;
     font-size: 1.2rem;
     padding-left: 0.5rem;
@@ -76,4 +88,59 @@ button{
     display: flex;
     gap: 2rem;
     font-size: smaller !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .first-row{
+        display: flex;
+        gap: 3rem;
+    }
+    
+
+
+    .second-row{
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .first-row{
+        display: flex;
+        gap: 1rem;
+        font-size: smaller;
+    }
+    
+    .share{
+        width: 70%;
+    }
+
+
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        font-size: smaller;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: smaller;
+    }
+
+    input{
+        height: 2rem;
+        font-size: smaller;
+    }
+
+    button{
+        height: 2.3rem;
+        font-size: smaller;
+    }
+
+    span{
+        font-size: smaller;
+    }
 }
