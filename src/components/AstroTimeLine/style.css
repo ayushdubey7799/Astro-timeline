@@ -98,7 +98,7 @@
     .MuiTimelineDot-root {
       width: 1rem;
       height: 1rem;
-      border-width: 0.2rem;
+      border-width: 0.3rem;
     }
 
     /* .MuiTimelineOppositeContent-root {
@@ -111,9 +111,9 @@
    
 
     .MuiTimelineDot-root {
-      width: 0.6rem;
-      height: 0.6rem;
-      border-width: 0.12rem !important;
+      width: 0.85rem;
+      height: 0.85rem;
+      border-width: 0.25rem !important;
     }
 
     .container{
@@ -144,7 +144,7 @@
 
   @media only screen and (max-width: 400px) {
    .prediction{
-    height: 220px;
+    height: 280px;
    }
 
    .date{
@@ -159,4 +159,13 @@
     font-size: 0.6rem;
   }
  
+  .MuiTimelineDot-root {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-width: 0.2rem !important;
   }
+
+  }
+
+
+  
