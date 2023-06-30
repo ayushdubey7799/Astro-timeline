@@ -11,13 +11,12 @@
 
 
   .prediction{
-    /* background-color: rgb(246,209,85, 0.7); */
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
     justify-content: center;
     background-color: rgb(246,209,85);
-    height: 270px;
+    height: 250px;
     border-radius: 5rem;
     padding: 2rem;
     text-align: center;
@@ -45,8 +44,9 @@
 
   .connect{
     position: absolute !important;
+    width: 0.3rem !important;
     top: calc(50% + 8px) !important; 
-     left: 49.955% !important;
+     left: 49.75% !important;
     height: calc(100% - -100px) !important; 
     z-index: -1 !important;
   }
@@ -65,11 +65,15 @@
   .MuiTimelineContent-root{
     display: flex !important;
     flex-direction: column !important;
-    
   }
   
 
   @media only screen and (max-width: 1000px) {
+
+
+    .connect{
+      width: 0.2rem !important;
+    }
     
    .container{
     width: 85%;
@@ -101,14 +105,16 @@
       border-width: 0.3rem;
     }
 
-    /* .MuiTimelineOppositeContent-root {
-      font-weight: 300 !important;
-    } */
+   
    
   }
 
   @media only screen and (max-width: 600px) {
    
+
+    .connect{
+      width: 0.15 !important;
+    }
 
     .MuiTimelineDot-root {
       width: 0.85rem;

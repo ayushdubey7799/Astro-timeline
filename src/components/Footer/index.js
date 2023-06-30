@@ -6,8 +6,6 @@ const Footer = () => {
         <div className="first-row">
             <div className="col-1">
                 <h4>Need Help</h4>
-                <a href="#">Check Appointment Status?</a>
-                <a href="#">Cancellation Policy</a>
                 <a href="#">Live Chat</a>
                 <a href="#">Coming Soon</a>
             </div>
@@ -16,22 +14,23 @@ const Footer = () => {
                 <h4>About IASO</h4>
                 <a href="#">Organization information</a>
                 <a href="#">Careers</a>
+                <a href="#">Refer Freinds</a>
             </div>
             <hr/>
 
             <div className="col-3">
                 <h4>Consultancy Services</h4>
                 <a href="#">Book Appointment</a>
-                <a href="#">Refer Freinds</a>
+                <a href="#">Check Appointment Status?</a>
+                <a href="#">Cancellation Policy</a>
             </div>
         </div>
         <div className="second-row">
+        <h3 class="center">Stay Updated!</h3>
+
             <div className="newsletter">
-                <div>
-                <h3 class="center">Stay Updated!</h3>
-                <p class="deals">Monthly Newsletter, Upcoming Predictions &amp; Events and Status.</p>
-                </div>
                 <form>
+                <p class="deals">Monthly Newsletter, Upcoming Predictions &amp; Events and Status.</p>
                     <input type="text" placeholder="Enter email address" />
                     <button>Sign Up</button>
                 </form>

@@ -38,7 +38,7 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 0.1rem;
-  width: 77.5%;
+  width: 85%;
   margin: 10px 15px;
   background-color: rgb(3,10,26);
   border-radius: 1rem;
@@ -51,22 +51,21 @@ form{
 }
 
 input{
-    width: 70%;
+    width: 40%;
     height: 2.7rem;
     border-radius: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-left: 0.5rem;
-
 }
 
 
 button{
-    width: 30%;
+    width: 20%;
     height: 3rem;
     border-radius: 0.5rem;
     background-color: rgb(6,119,255);
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
@@ -76,6 +75,10 @@ button{
     gap: 1rem;
 }
 
+.center{
+  font-size: 1.5rem;
+  align-self: center;
+}
 
 .line{
     height: 1px;

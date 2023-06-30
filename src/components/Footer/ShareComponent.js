@@ -5,7 +5,6 @@ import { FacebookIcon,
         EmailIcon,
          PinterestIcon,
         } from 'react-share';
-import Box from '@mui/material/Box';
 import './style.css';
 
 
