@@ -13,8 +13,8 @@ const Header = () => {
             <div className="navbar">
             <ul className="left">
                <li><a className="link">Home</a></li>
+               <a className="link">About IASO</a>
                <li><a className="link">News</a></li>
-               <li><a className="link">Need Help</a></li>
       <li>
         <a className="link">Services</a>
         <ul className="dropdown-menu">
@@ -25,7 +25,8 @@ const Header = () => {
     </ul>
     <div className="right">
       <a className="link">Search</a>
-      <a className="link">About IASO</a>
+      <li><a className="link">Need Help</a></li>
+
     </div>
   </div>
   </div>

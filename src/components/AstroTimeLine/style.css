@@ -12,19 +12,25 @@
 
   .prediction{
     /* background-color: rgb(246,209,85, 0.7); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgb(246,209,85);
+    height: 200px;
     border-radius: 5rem;
     padding: 2rem;
     text-align: center;
     margin-bottom: 10px !important;
+    font-family: 'Titillium Web', sans-serif !important;
+
   }
 
   .date{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .heading{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .text{
@@ -44,40 +50,72 @@
     z-index: -1 !important;
   }
 
+  .MuiTimelineDot-root {
+      width: 1.2rem;
+      height: 1.2rem;
+      background-color: white !important;
+      border: 0.4rem solid red !important;
+  }
+
+  .MuiTimelineOppositeContent-root {
+    font-weight: 700 !important; 
+  }
   
+  .MuiTimelineContent-root{
+    display: flex !important;
+    flex-direction: column !important;
+    
+  }
   
 
   @media only screen and (max-width: 1000px) {
     
+   .container{
+    width: 80%;
+   }
 
     .prediction{
+      height: 190px;
       border-radius: 1.2rem;
       margin-bottom: 2px !important;
       padding: 0.8rem;
     }
 
     .date{
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   
     .heading{
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   
     .text{
       font-size: 0.7rem;
     }
+
+    .MuiTimelineDot-root {
+      width: 1rem;
+      height: 1rem;
+      border-width: 0.2rem;
+    }
    
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
    
+
+    .MuiTimelineDot-root {
+      width: 0.8rem;
+      height: 0.8rem;
+      border-width: 0.15rem;
+    }
 
     .container{
       width: 100%;
   }
 
     .prediction{
+      height: 120px;
       border-radius: 0.8rem;
       margin-bottom: 2px !important;
       padding: 0.5rem;

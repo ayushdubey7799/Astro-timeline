@@ -13,7 +13,7 @@ import { PredictionContent } from './PredictionContent';
 import { getData } from './data';
 
 const predictions = getData();
-
+console.log(predictions.sort((a,b) => b.description.length+b.title.length+b.date.length-a.description.length-a.title.length-a.date.length)[0]);
 
 
 export default function AstroTimeLine() {
@@ -59,11 +59,11 @@ export default function AstroTimeLine() {
                               }
                                 
                                 <TimelineSeparator >
-                                    <TimelineDot color={status}/>
+                                    <TimelineDot />
                                     <TimelineConnector color="primary" className='connect'  />
                                 </TimelineSeparator>
                                 <TimelineContent
-                                    sx={{ m: '10 10' }}
+                                    sx={{ m: '10 10'}}
                                     component={motion.div}
                                     whileInView={{ opacity: 1, x: 0 }}
                                     initial={effect ? { opacity: 0, x: -100 } : { opacity: 0, x: 100 }}

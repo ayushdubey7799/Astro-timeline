@@ -73,12 +73,17 @@ sup{
 }
   
   
-  
-  
 
-  
   select{
     width: 80%;
+  }
+
+  a{
+    font-weight: bold;
+  }
+
+  a:hover{
+    color: rgb(243, 200, 57);
   }
 
   
@@ -105,9 +110,7 @@ sup{
   }
 
   @media only screen and (max-width: 680px) {
-    
-    
-
+  
     .name{
       font-size: 1.5rem;
       padding: 0;
