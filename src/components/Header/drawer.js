@@ -27,12 +27,13 @@ export default function NavDrawer() {
                 <div className="container-drawer">
                         <ul className="drawer">
                             <li><a className="link">Home</a></li>
+                            <li><a className="link">About IASO</a></li> 
                             <li><a className="link">News</a></li>
-                            <li><a className="link">Need Help</a></li>
                             <li><a className="link">Book Appointment</a></li>
                             <li><a className="link">Contact</a></li>
                            <li><a className="link">Search</a></li> 
-                           <li><a className="link">About IASO</a></li> 
+                           <li><a className="link">Need Help</a></li>
+
                         </ul>
 
                     
