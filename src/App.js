@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Waves/> */}
       <AstroTimeLine />
       <Footer/>
+
     </div>
   );
 }

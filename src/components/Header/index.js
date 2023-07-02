@@ -12,6 +12,8 @@ const Header = () => {
         <div className="container-head">
             <div className="navbar">
             <ul className="left">
+              <li><script src="https://cdn.logwork.com/widget/digital.js"></script>
+<a href="https://logwork.com/current-time-in-delhi-india" class="digital-clock" data-style="round" data-size="253" data-timezone="Asia/Kolkata" data-language="en">Delhi, India</a></li>      
                <li><a className="link">Home</a></li>
                <a className="link">About IASO</a>
                <li><a className="link">News</a></li>
@@ -43,3 +45,5 @@ const Header = () => {
 }
 
 export default Header;
+
+
