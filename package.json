@@ -9,6 +9,7 @@
     "@mui/lab": "^5.0.0-alpha.134",
     "@mui/styled-engine": "^5.13.2",
     "@mui/system": "^5.13.5",
+    "@sendgrid/mail": "^7.7.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
